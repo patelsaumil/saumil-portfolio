@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saumil Patel - Web Developer</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header id="header">
+    <div class="header-content wrapper">
+      <h1 class="site-logo">Saumil</h1>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Intro Section -->
+  <section id="hero" class="hero-section">
+    <div class="wrapper hero-content">
+      <div class="hero-text">
+        <p class="welcome">Welcome to my site</p>
+        <h2>
+          <span class="highlight">Hi, I'm Saumil , a</span> 
+          <span class="web">Web Developer</span>
+        </h2>
+        <p class="description">
+            A passionate Full-Stack Developer with expertise in both frontend and backend development. I enjoy building scalable, user-friendly, and innovative web applications that solve real-world challenges.
+        </p>
+      </div>
+      <div class="hero-image">
+        <img src="img/Snapchat-1983554439.jpg" alt="Saumil Patel Photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="wrapper about-content">
+      <h2><span class="me">About Me</span></h2>
+      <div class="about-details">
+        <div class="about-image">
+          <img src="img/20230311_094614.jpg" alt="Saumil traveling or working photo">
+        </div>
+        <div class="about-text">
+          <p>
+            I am a technology-driven IT professional with expertise in full-stack development, project management, and UX design. With a Master’s in Computer Science and PMP certification, I specialize in building scalable web and mobile applications, leading IT projects, and optimizing digital experiences.
+            My career spans software development, cloud computing, cybersecurity, and Agile methodologies, making me a versatile problem solver. I have experience in handling IT solutions for businesses, managing digital transformation projects, and ensuring seamless user interactions.
+            Beyond coding, I am passionate about design, innovation, and technology’s role in improving communities. I am currently working on a healthcare app and website for Prince Albert, aiming to enhance accessibility and well-being through digital solutions.
+            My long-term goal is to establish my own IT firm in India, where I can drive tech-based innovations that make a meaningful impact.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section">
+    <div class="wrapper">
+      <h2><span class="service">Services</span></h2>
+      <div class="cards">
+        <div class="card">
+          <img src="img/landing-page_17328374.png" alt="Website Design Icon">
+          <h3><span class="site">Website Design</span></h3>
+          <p>I create modern, responsive, and user-friendly websites with a focus on clean design, smooth navigation, and accessibility. Using React, HTML, CSS, and UX tools like Figma, I build fast, engaging, and visually appealing digital experiences.</p>
+        </div>
+        <div class="card">
+          <img src="img/graphic-design_2986666.png" alt="App Dev Icon">
+          <h3><span class="app">Apps</span></h3>
+          <p>I design intuitive, user-friendly, and high-performance mobile & web apps with a focus on UX/UI, accessibility, and seamless functionality. Using React Native, Figma, and modern design principles, I craft engaging and scalable digital solutions that enhance user experience.</p>
+        </div>
+        <div class="card">
+          <img src="img/ux_17109866.png" alt="UX/UI Icon">
+          <h3><span class="ux">UX / UI</span></h3>
+          <p>I craft intuitive, accessible, and visually appealing interfaces that enhance user experience. Using Figma, Adobe XD, and modern design principles, I focus on usability, responsiveness, and seamless interactions to create engaging digital products.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills-section">
+    <div class="wrapper">
+      <h2><span class="skill">Skills</span></h2>
+      <div class="skills-icons">
+        <img src="img/html-5_5968267.png" alt="HTML Icon">
+        <img src="img/css-3_732190.png" alt="CSS Icon">
+        <img src="img/javascript_3097978.png" alt="JavaScript Icon">
+        <img src="img/illustrator_5968472.png" alt="Adobe Illustrator Icon">
+        <img src="img/photoshop_2420571.png" alt="Adobe Photoshop Icon">
+        <img src="img/asp_510578.png" alt="ASP Icon">
+        <img src="img/php_4288752.png" alt="PHP Icon">
+        <img src="img/figma_5968705.png" alt="Figma Icon">
+      </div>
+    </div>
+  </section>
+  
+  <!-- Contact Me Section -->
+  <section id="contact" class="contact-section">
+    <div class="wrapper contact-wrapper">
+      <h2><span class="CONTACT">Contact Me</span></h2>
+      <p><span class="subtitle">Cultivating Connections: Reach out and connect with me</span></p>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input id="first-name" type="text" name="firstName" required>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input id="last-name" type="text" name="lastName" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="project-details">Project Details</label>
+          <input id="project-details" type="text" name="projectDetails" required>
+        </div>
+        <div class="form-group">
+          <label for="phone-no">Phone No</label>
+          <input id="phone-no" type="tel" name="phoneNo">
+        </div>
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer id="footer" class="footer-section">
+    <div class="wrapper footer-wrapper">
+      <h2 class="footer-logo">Saumil</h2>
+      <ul class="footer-menu">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+      <div class="footer-social">
+        <a href="#"><img src="img/linkedin_2504923.png" alt="LinkedIn"></a>
+        <a href="#"><img src="img/instagram_2111463.png" alt="Instagram"></a>
+        <a href="#"><img src="img/facebook_2504903.png" alt="Facebook"></a>
+        <a href="#"><img src="img/github_2504911.png" alt="Github"></a>
+      </div>
+      <div class="footer-contact-info">
+        <p>saumilpatel056@gmail.com</p>
+        <p>+1 613 999 8009</p>
+      </div>
+      <p class="copyright">
+        Designed by @SaumilPatel Web Developer
+      </p>
+    </div>
+  </footer>
+  
+</body>
+</html>
